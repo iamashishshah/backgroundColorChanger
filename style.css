@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container {
+    margin: 50px auto 50px;
+    text-align: center;
+}
+
+.button {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+
+    transform: scale(1.1);
+    /* Scale up the box on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    /* Neon glow effect */
+
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+label {
+    margin: 20px;
+    /* display: inline; */
+}
+
+h4 {
+    display: inline;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    padding: 0px;
+    border: 0px solid white;
+    border-radius: 0px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+input:hover{
+    
+    transform: scale(1.1);
+    /* Scale up the box on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    /* Neon glow effect */
+
+}
